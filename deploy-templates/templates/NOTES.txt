@@ -1,0 +1,1 @@
+1. Application tekton-autotest has been successfully deployed!!

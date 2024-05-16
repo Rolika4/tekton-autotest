@@ -31,3 +31,4 @@ RUN curl -sLO "https://storage.googleapis.com/kubernetes-release/release/v${KUBE
 RUN curl -LO "https://github.com/tektoncd/cli/releases/download/v${TKN_VERSION}/tkn_${TKN_VERSION}_${OS}.tar.gz" \
     && tar zxvf tkn_${TKN_VERSION}_Linux_x86_64.tar.gz -C /usr/local/bin tkn \
     && rm -f tkn_${TKN_VERSION}_Linux_x86_64.tar.gz
+
